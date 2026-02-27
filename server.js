@@ -19,7 +19,7 @@ const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
 
 // Telegram Bot API token
-const telegramBotToken = 'YOUR_TELEGRAM_BOT_TOKEN';
+const telegramBotToken = '8367516207:AAG6uKkLQffJyGkBPPJCU6YUilh-qcaUhfU';
 
 // Endpoint to handle media uploads
 app.post('/upload', upload.single('media'), async (req, res) => {
